@@ -1,4 +1,2 @@
-[![Build Status](https://travis-ci.com/qba73/testrail.svg?branch=main)](https://travis-ci.com/qba73/testrail)
-
 # testrail
-A Go library for TestRail REST API
+```testrail``` is a Go client library for [TestRail REST API](https://www.gurock.com/testrail/docs/api/)
