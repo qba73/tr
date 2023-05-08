@@ -2,4 +2,4 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/qba73/testrail)](https://goreportcard.com/report/github.com/qba73/testrail)
 
 # testrail
-```testrail``` is a Go client library for [TestRail API](https://www.gurock.com/testrail/docs/api/)
+```testrail``` is a Go client library and a CLI tool for [TestRail API](https://www.gurock.com/testrail/docs/api/)
