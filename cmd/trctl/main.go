@@ -1,7 +1,7 @@
 package main
 
-import "github.com/qba73/testrail"
+import "fmt"
 
 func main() {
-	testrail.RunCLI()
+	fmt.Println("Running dummy CLI...")
 }
