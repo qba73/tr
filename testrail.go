@@ -23,14 +23,14 @@ type userResp struct {
 	SSOEnabled       bool  `json:"sso_enabled,omitempty"`
 }
 
-// Client holds data required to communicate with the API.
+const libVersion = "0.0.1"
+
+// Client holds data required to communicate with the TestRail API.
 type Client struct {
 	UserAgent  string
 	BaseURL    string
 	HTTPClient *http.Client
 }
-
-const libVersion = "0.0.1"
 
 // NewClient knows how to construct a new default TestRail client.
 func NewClient(baseURL string) *Client {
